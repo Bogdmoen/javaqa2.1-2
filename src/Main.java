@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        int balance = 150; // изначальный баланс
-        int payment = 1000; // платеж
+        int balance = 100; // изначальный баланс
+        int payment = 1150; // платеж
         int bonus;
         int bonus_payment;
         if (payment >= 1000) {
