@@ -3,15 +3,15 @@ public class Main {
         int balance = 100; // изначальный баланс
         int payment = 1150; // платеж
         int bonus;
-        int bonus_payment;
+        int bonusPayment;
         if (payment >= 1000) {
             bonus = payment / 100;
 
         } else {
             bonus = 0;
         }
-        bonus_payment = payment + bonus;
-        balance = balance + bonus_payment;
+        bonusPayment = payment + bonus;
+        balance = balance + bonusPayment;
         System.out.println(bonus);
         System.out.println(balance);
     }
